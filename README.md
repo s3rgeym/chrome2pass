@@ -12,5 +12,5 @@
 ## Import Passwords
 
 ```bash
-$ ./chrome2pass.py /path/saved/Chrome Passwords.csv`
+$ ./chrome2pass.py /path/to/saved/Chrome Passwords.csv`
 ```
