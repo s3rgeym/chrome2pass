@@ -1,7 +1,15 @@
-# Import Passwords from Chrome 2 Pass
+# Import Passwords from Chrome to Pass
 
-1. Open `chrome://settings/passwords` in your browser (Chrome, Chromium, Opera, Vivaldi, etc)
+## Export Passwords
 
-1. Find `Saved Passwords` -> Click next to the icon `⋮` -> Select `Export passwords....` -> Save file
+1. Browser
 
-1. Run `$ ./chrome2pass.py /path/to/Passwords.csv`
+  1. Open `chrome://settings/passwords` in your browser (Chrome, Chromium, Opera, Vivaldi, etc)
+
+  2. Find `Saved Passwords` -> Click next to the icon `⋮` -> Select `Export passwords....` -> Save file
+
+## Import Passwords
+
+```bash
+$ ./chrome2pass.py /path/to/Chrome Passwords.csv`
+```
